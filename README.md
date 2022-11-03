@@ -33,8 +33,8 @@ Below is a screenshot of my solution.
 
 ### Links
 
-- Solution URL: [](https://github.com/Sidi-Ali/news-homepage)
-- Live Site URL: []( https://sidi-ali.github.io/news-homepage/)
+- Solution URL: [My solution](https://github.com/Sidi-Ali/news-homepage)
+- Live Site URL: [Live Site]( https://sidi-ali.github.io/news-homepage/)
 
 ## My process
 I used a mobile-first workflow to complete this project.
