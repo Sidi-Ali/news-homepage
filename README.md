@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-Follow the link below to see a screenshot of my solution.
+Below is a screenshot of my solution.
 
 ![](assets/images/screenshot.png)
 
