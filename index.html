@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | News homepage</title>
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/8321e838df.js" crossorigin="anonymous"></script>
+  <!-- css -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" media="screen and (max-width: 577px)" href="css/under578.css">
+  <link rel="stylesheet" media="screen and (min-width: 578px) and (max-width: 680px)" href="css/between578and680.css">
+  <link rel="stylesheet" media="screen and (min-width: 681px) and (max-width: 900px)" href="css/between681and900.css">
+  <link rel="stylesheet" media="screen and (min-width: 901px) and (max-width: 1434px)" href="css/between901and1434.css">
+  <link rel="stylesheet" media="screen and (min-width: 1435px)" href="css/over1434.css">
+  <!-- javascript -->
+  <script src="menu.js" charset="utf-8"></script>
+</head>
+<body>
+  <main>
+    <div class="nav">
+      <div class="nav-image">
+        <img class="nav-img" src="assets/images/logo.svg" alt="Logo">
+      </div>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0);" class="closebtn icon" onclick="closeNav()">&#9587;</a>
+        <a class="nav-item" href="#">Home</a>
+        <a class="nav-item" href="#">New</a>
+        <a class="nav-item" href="#">Popular</a>
+        <a class="nav-item" href="#">Trending</a>
+        <a class="nav-item" href="#">Categories</a>
+      </div>
+      <span class="icon" onclick="openNav()">&#9776;</span>
+    </div>
+    <div class="top-div">
+      <div class="top-left">
+        <div>
+          <picture>
+            <source media="(min-width: 578px)" srcset="assets/images/image-web-3-desktop.jpg">
+            <img class="top-left-image" src="assets/images/image-web-3-mobile.jpg">
+          </picture>
+        </div>
+        <div class="bottom-two">
+          <div class="heading-div">
+            <h1>The Bright Future of Web 3.0?</h1>
+          </div>
+          <div class="paragraph-div">
+            <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
+            But is it really fulfilling its promise?</p>
+            <button class="read-more" type="button" name="button">READ MORE</button>
+          </div>
+        </div>
+      </div>
+      <div class="top-right">
+        <h2>New</h2>
+        <h3>Hydrogen VS Electric Cars</h3>
+        <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        <hr>
+        <h3>The Downsides of AI Artistry</h3>
+        <p>What are the possible adverse effects of on-demand AI image generation?</p>
+        <hr>
+        <h3>Is VC Funding Drying Up?</h3>
+        <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </div>
+    </div>
+    <div class="bottom-div">
+      <div class="bottom-div1">
+        <div class="bottom-img-div">
+          <img class="bottom-img" src="assets/images/image-retro-pcs.jpg" alt="retro-pc">
+        </div>
+        <div class="bottom-div-text">
+          <h2 class="bottom-h2">01</h2>
+          <h3 class="bottom-h3">Reviving Retro PCs</h3>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+      <div class="bottom-div1">
+        <div class="bottom-img-div">
+          <img class="bottom-img" src="assets/images/image-top-Laptops.jpg" alt="Laptop keyboard">
+        </div>
+        <div class="bottom-div-text">
+          <h2 class="bottom-h2">02</h2>
+          <h3 class="bottom-h3">Top 10 Laptops of 2022</h3>
+          <p>Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+      <div class="bottom-div1">
+        <div class="bottom-img-div">
+          <img class="bottom-img" src="assets/images/image-gaming-growth.jpg" alt="Gaming control pad">
+        </div>
+        <div class="bottom-div-text">
+          <h2 class="bottom-h2">03</h2>
+          <h3 class="bottom-h3">The Growth of Gaming</h3>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="attribution">
+    <p>Challenge by <a  href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p>
+    <p>Coded by <a  href="https://www.linkedin.com/in/muhammad-adamu-sidi-ali-907a486b/">M.A. Sidi-Ali</a>.</p>
+  </footer>
+</body>
+</html>

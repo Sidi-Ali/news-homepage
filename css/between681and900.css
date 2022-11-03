@@ -1,0 +1,120 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+body{
+  padding: 100px;
+  transition: background-color .5s;
+}
+
+.icon{
+  font-size:40px;
+  font-weight: bold;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: hsl(36, 100%, 99%);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #111;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  font-weight: bold;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.nav{
+  margin-bottom: 20px;
+}
+
+.nav-item{
+  margin: 20px auto 20px;
+}
+
+.top-div{
+  flex-direction: column;
+}
+
+.top-left{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+}
+
+.top-right{
+  margin: 0 20% 0 20%;
+}
+
+.bottom-two{
+  flex-direction: row;
+  margin: 30px auto;
+}
+
+.heading-div{
+  width: 50%;
+}
+
+.heading-div h1{
+  font-size: 2.5rem;
+}
+
+.paragraph-div{
+  width: 50%;
+}
+
+.read-more{
+  width: 70%;
+}
+
+.bottom-div{
+  flex-direction: row;
+  margin-top: 30px;
+
+}
+
+.bottom-div1{
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.bottom-img-div{
+  /* padding: 10px; */
+  text-align: center;
+}
+
+.bottom-img{
+  width: 80%;
+}
+
+.bottom-div-text{
+  text-align: center;
+  margin: 20px;
+}
+
+ .bottom-h2{
+  font-size: 2.5rem;
+}

@@ -1,0 +1,65 @@
+body{
+  padding: 50px 300px 0;
+  height: 100vh;
+}
+
+.icon{
+  display: none;
+}
+
+.nav-item{
+  text-decoration: none;
+  margin: 30px;
+  color: hsl(236, 13%, 42%);
+}
+
+.top-div{
+  margin-bottom: 40px;
+}
+
+.top-left{
+  width: 70%;
+  margin-right: 20px;
+}
+
+.top-right{
+  width: 30%;
+  margin:0 30px 0 10px;
+}
+
+.bottom-two{
+  flex-direction: row;
+  margin-top: 20px;
+  position: relative;
+}
+
+.read-more{
+  position: absolute;
+  left: 55%;
+  bottom: 0;
+  width: 25%;
+}
+
+.heading-div{
+  width: 55%;
+}
+
+.heading-div h1{
+  font-size: 3.5rem;
+}
+
+.paragraph-div{
+  width: 45%;
+}
+
+.bottom-img-div{
+  margin-right: 20px;
+}
+
+.bottom-img{
+  width: 100%;
+}
+
+.bottom-div-text{
+  padding-right: 10px;
+}
