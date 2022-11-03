@@ -77,7 +77,7 @@ I have used flexbox in this project and have seen the need to use both flexbox a
 
 ### Useful resources
 
-- [Flexbox](flexbox.io) - This is an amazing tutorial that helped me finally understand Flexbox. I'd recommend it to anyone still learning this concept.
+- [Flexbox](https://flexbox.io/) - This is an amazing tutorial that helped me finally understand Flexbox. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
