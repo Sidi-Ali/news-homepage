@@ -42,7 +42,7 @@ I used a mobile-first workflow to complete this project.
 ### Built with
 
 - HTML5
-- CSS custom properties
+- CSS
 - Flexbox
 - JavaScript
 
